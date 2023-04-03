@@ -18,5 +18,13 @@
         "psr-4": {
             "Kayise\\Test\\": "src/"
         }
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kayise\\Test\\TestServiceProvider"
+            ]
+        }
     }
 }
