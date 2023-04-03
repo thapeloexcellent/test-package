@@ -1,0 +1,22 @@
+{
+    "name": "kayise/test",
+    "description": "this is a test package for adding testimonials",
+    "type": "library",
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "10.x-dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maluka Thapelo"
+        }
+    ],
+    "minimum-stability": "dev",
+
+    "autoload": {
+        "psr-4": {
+            "Kayise\\Test\\": "src/"
+        }
+    }
+}
